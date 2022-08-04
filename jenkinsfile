@@ -4,7 +4,7 @@ pipeline {
       stage('test') { 
         steps {
           sh """
-            date ; pwd ; id; ip
+            date ; pwd ; id; ifconfig
           """
         }
       }
